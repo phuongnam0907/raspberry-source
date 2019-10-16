@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/lenam-styl084/rpi3/rpi-build/tmp
+SSTATE_DIR /home/lenam-styl084/rpi3/rpi-build/sstate-cache
+NATIVELSBSTRING ubuntu-16.04

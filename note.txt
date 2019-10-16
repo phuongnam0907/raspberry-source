@@ -1,0 +1,2 @@
+location: /home/lenam-styl084/rpi3
+

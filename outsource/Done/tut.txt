@@ -1,0 +1,16 @@
+before run make:
+  source /opt/fsl-framebuffer/2.7/environment-setup-cortexa7t2hf-neon-fsl-linux-gnueabi
+run:
+  make ARCH=arm -j 8 imx6ul_defconfig
+  make ARCH=arm -j 8 LOADADDR=0x10008000
+
+
+Run on board
+
+insmod <filename>	Ex: insmode hello.ko
+
+rmmode <filename>	Ex: rmmode hello.ko
+
+
+
+rsync -rlL --progress ssh/ styl@10.10.30.223:/home/styl/tony/i.mx6/bf2/
